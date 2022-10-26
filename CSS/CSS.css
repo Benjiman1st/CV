@@ -1,0 +1,103 @@
+body{
+  font-family: Verdana;
+  font-size: 22px;
+  background-color: #CCFFFF;
+  text-align: center;
+}
+header, div, footer {
+  padding: 30px;
+  display: grid;
+  place-items: center;
+}
+ul, a{
+  color: white;
+  text-decoration: inherit;
+}
+li{
+  font-size: 32px;
+  display: inline-block;
+  text-align: center;
+  padding-top: 17px;
+  height: 65px;
+  width: 400px;
+  border-width: 3px #000022;
+  border-color: #000022;
+  border-radius:22px;
+  background-color: #000055;
+}
+li:hover{
+  background-color: #00EE00;
+  border-style: dotted;
+  border-width: thick;
+  border-color: #FFFF33;
+}
+p{
+  text-shadow: 3px 3px 3px darkblue;
+  text-align: left;
+}
+img{
+  width: 100%;
+}
+#kantoor{
+  width: 38%;
+  margin: auto;
+}
+#terug{
+  padding-left: 12px;
+}
+table{
+  font-family: Verdana;
+  font-size: 16px;
+  border-color: #021C15;
+}
+th{
+  background-color: #237B63;
+}
+tr{
+  background-color: #78B2A2;
+  }
+th, td{
+  padding:3px 12px
+}
+.opleiding{
+  background-color: #5970D1;
+  color: #E8EBF8;
+}
+.baan{
+  background-color: #001A89;
+  color: #E8EBF8;
+}
+.center{
+  display: grid;
+  place-items: center;
+}
+input[type="text"], input[type="number"], input[type="email"], input[type="tel"], textarea{
+  display: block;
+  width: 500px;
+  margin: 40px;
+  border-width: thick;
+  box-sizing: border-box;
+  border-radius: 50px;
+  box-shadow: inset 3px 3px 6px #99ADAC;
+  text-align: center;
+}
+textarea{
+  height: 300px;
+  padding: 5px 4px;
+}
+button{
+  background-color: #07513F;
+  color: #EFF5F3;
+  border-width: thick;
+  width: 300px;
+  height: 50px;
+  border-radius: 50px;
+  box-shadow: inset 3px 3px 6px #99ADAC;
+  text-align: center;
+}
+button:active{
+  background-color: #53D82F;
+  color: #FFFFFF;
+  border-radius: 15px;
+  box-shadow: inset 4px 4px 10px #204604;
+}

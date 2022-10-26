@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <meta charset="utf-8">
+ <title>contact</title>
+ <link rel="stylesheet" type="text/css" href="CSS/CSS.css"/>
+</head>
+<body>
+  <header id="start">
+  <ul>
+   <li><a href="#">Wie ben ik?</a></li>
+   <li><a href="#">Mijn CV</a></li>
+   </ul>
+  </header>
+ <div class="center">
+  <form method="post" action="bewaarInformatie.php">
+   <p><h2>Uw Contactgegevens</h2></p>
+   <input type="text" name="voornaam" placeholder="Uw voornaam">
+   <input type="text" name="achternaam" placeholder="Uw achternaam">
+   <input type="number" name="leeftijd" min="18" max="110" placeholder="Uw leeftijd in nummers">
+   <input type="email" name="e-mailadres" placeholder="uw e-mailadres">
+   <input type="tel" name="telefoonnummer" placeholder="Uw telefoonnummer">
+   <textarea placeholder="Vertel eens een mop"></textarea>
+   <button>Verzend!</button>
+  </form>
+ </div>
+ <div  id="kantoor">
+  <img src="afbeeldingen/mijzelf op kantoor.jpeg" alt="mijzelf op kantoor">
+ </div>
+ <footer>
+  <a id="terug" href="#start">Terug naar menu</a>
+ </footer>
+</body>
+</html>
